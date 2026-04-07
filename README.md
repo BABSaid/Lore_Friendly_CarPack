@@ -2,13 +2,8 @@
 
 Pack de véhicules **lore-friendly** pour FiveM, prêt à être utilisé sur tout type de serveur (ESX, QBCore, Standalone).
 
-📦 Le pack est fourni sous forme d’un fichier principal :
-
-```id="yrjs8b"
-Lore Friendly.rar
-```
-
-Ce fichier contient **tous les véhicules sous forme de `.rar` individuels**.
+📦 **Le pack est disponible via GitHub Release** :
+Télécharge la dernière version [ici](https://github.com/BABSaid/Lore_Friendly_CarPack/releases/latest).
 
 ---
 
@@ -39,36 +34,20 @@ Ce fichier contient **tous les véhicules sous forme de `.rar` individuels**.
 
 ---
 
-## 📦 Contenu
-
-* 1 archive principale : `Lore Friendly.rar`
-* Plusieurs archives `.rar` :
-
-  * 1 véhicule = 1 archive
-* Chaque archive contient :
-
-  * Modèle du véhicule
-  * Fichiers de streaming
-  * `fxmanifest.lua` (selon véhicule)
-
----
-
 ## ⚙️ Installation
 
-### 1. Extraire le pack principal
+### 1. Télécharger le pack
 
-```id="ns0fzn"
-Lore Friendly.rar
-```
+* Rendez-vous sur la **Release GitHub** : [Télécharger ici](https://github.com/BABSaid/Lore_Friendly_CarPack/releases/latest)
+* Télécharge le fichier `.rar` (environ 720 Mo).
 
 ---
 
-### 2. Extraire chaque véhicule
+### 2. Extraire le pack
 
-Chaque véhicule est fourni en `.rar` :
-
-* Extraire chaque archive
-* Récupérer le dossier du véhicule
+* Extraire le `.rar` principal
+* Chaque véhicule est fourni dans son `.rar` individuel
+* Extraire chaque véhicule dans un dossier séparé
 
 ---
 
@@ -76,7 +55,7 @@ Chaque véhicule est fourni en `.rar` :
 
 Placer les dossiers dans :
 
-```id="vaj8yg"
+```text
 resources/[vehicles]/
 ```
 
@@ -86,13 +65,13 @@ resources/[vehicles]/
 
 Option classique :
 
-```id="js72t1"
+```text
 ensure nom_du_vehicle
 ```
 
 Option optimisée :
 
-```id="gaij6c"
+```text
 ensure [vehicles]
 ```
 
@@ -111,7 +90,6 @@ ensure [vehicles]
 
 * ❌ Ne pas mettre les `.rar` dans `resources`
 * ❌ Toujours extraire chaque véhicule
-* ❌ Ne pas renommer les dossiers sans adapter les fichiers internes
 * ✔️ Vérifier les conflits de spawnname
 * ✔️ Tester en local avant mise en production
 
@@ -119,22 +97,13 @@ ensure [vehicles]
 
 ## 📁 Structure recommandée
 
-```id="k60u9y"
+```text
 resources/
 └── [vehicles]/
     ├── vehicle1/
     ├── vehicle2/
     └── ...
 ```
-
----
-
-## 🔐 Bonnes pratiques
-
-* Backup complet avant installation
-* Éviter les doublons de véhicules
-* Limiter le nombre de véhicules actifs (performance)
-* Vérifier les erreurs console (`F8` / logs serveur)
 
 ---
 
@@ -155,5 +124,3 @@ Revente interdite sans autorisation
 
 Aucun support garanti.
 Le pack est fourni **tel quel**, fonctionnel et prêt à l’emploi.
-
----
